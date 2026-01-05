@@ -1,0 +1,8 @@
+# Archivos generados
+css/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
