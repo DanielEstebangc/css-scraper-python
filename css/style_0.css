@@ -1,0 +1,15 @@
+
+
+.material-symbols-outlined {
+    font-size: 50px !important;
+    display: inline-flex;   /* permite gap y spacing real */
+    vertical-align: middle; /* centra con el texto */
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+

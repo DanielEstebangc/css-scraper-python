@@ -1,0 +1,49 @@
+.styling-tabla{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.styling-tabla thead tr {
+    background-color: #6bbd6e;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.styling-tabla th {
+    text-align: left;     /* encabezados alineados a la izquierda */
+    padding: 12px 15px;   /* espacio interno de la celda */
+}
+
+.styling-tabla td {
+    text-align: center;   /* contenido centrado */
+    padding: 12px 15px;
+}
+
+.styling-tabla tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styling-tabla tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styling-tabla tbody tr:last-of-type {
+    border-bottom: 2px solid #6bbd6e;
+}
+
+.divTabla{
+    margin-top: 20px;
+    text-align: center;
+    transform: translateY(-40px);
+}
+
+.divTabla h3{
+    color: #358438;
+}
